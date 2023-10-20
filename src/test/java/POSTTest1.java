@@ -17,7 +17,7 @@ public class POSTTest1 {
 
                 .then()
                 .statusCode(200)
-                .body("data", equalTo("эту задачу нужно выполнять в отдельном репозиториях"))
+                .body("data", equalTo("эту задачу нужно выполнять в отдельном репозитории"))
         ;
     }
 
